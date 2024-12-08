@@ -22,16 +22,6 @@ p {
     margin: 0;
 }
 
-.image-container {
-    text-align: center;
-}
-
-.image-container img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-}
-
 .menu-container {
     background-color: #ffffff;
     padding: 20px;
