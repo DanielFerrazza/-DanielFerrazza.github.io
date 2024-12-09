@@ -219,4 +219,20 @@ img:hover {
 .social-links a:hover {
     color: #e64a19;
 }
+.btn-home {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5722;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #e64a19;
+}
 
