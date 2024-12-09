@@ -179,3 +179,44 @@ img:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
+/* Estilo para la sección "Sobre mí" */
+.about-me {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-me-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-text {
+    flex: 1;
+}
+
+.about-me-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ff5722;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #e64a19;
+}
+
