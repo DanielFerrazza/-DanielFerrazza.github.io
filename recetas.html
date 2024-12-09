@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas - Mi Cocina</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- ... (igual al archivo `index.html`) -->
+    </header>
+
+    <!-- Filtro y búsqueda -->
+    <section class="filters">
+        <label for="filter-category">Categoría:</label>
+        <select id="filter-category">
+            <option value="all">Todas</option>
+            <option value="postres">Postres</option>
+            <option value="principales">Principales</option>
+        </select>
+
+        <input type="text" id="search-bar" placeholder="Buscar recetas...">
+    </section>
+
+    <!-- Lista de recetas -->
+    <section class="recipes-list">
+        <h2>Lista de Recetas</h2>
+        <div class="recipe-cards">
+            <div class="recipe-card" data-category="postres">
+                <img src="assets/receta1.jpg" alt="Receta 1">
+                <h3>Tarta de Chocolate</h3>
+                <p>Categoría: Postres</p>
+                <a href="receta1.html" class="btn-view">Ver Receta</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paginación -->
+    <div class="pagination">
+        <button id="prev-page">Anterior</button>
+        <button id="next-page">Siguiente</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- ... -->
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

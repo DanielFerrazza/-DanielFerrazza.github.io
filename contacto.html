@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Cocina</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">Mi Cocina</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+                <li><a href="#" class="cta">Suscribirse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulario de contacto -->
+    <section class="contact">
+        <h1>Contáctanos</h1>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Tu nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Tu correo electrónico" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Mensaje de confirmación -->
+    <div id="confirmation-message" style="display: none;">
+        <h2>¡Gracias por contactarnos!</h2>
+        <p>Tu mensaje ha sido enviado exitosamente. Nos pondremos en contacto contigo pronto.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 Mi Cocina. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
